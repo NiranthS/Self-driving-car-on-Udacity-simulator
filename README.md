@@ -4,8 +4,11 @@
 <p align="center">
    <img  src="https://miro.medium.com/max/1400/1*2u3zy6GRNBKb5CAVNqkk9Q.png">
 </p>
+
 * The most important thing that we need to predict to drive successfully is the steering angle of the vehicle.
+
 * The throttle in our case can be calculated by a simple formula involving steering angle.
+
 * The architecture of the neural network was mainly inspired from Nvidia’s [End to End Learning for Self-Driving Cars paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf).
 
 <p align="center">
