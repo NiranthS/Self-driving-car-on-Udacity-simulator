@@ -1,6 +1,9 @@
 # Self-driving-car-on-Udacity-simulator
 * To teach a virtual car how to drive, I took the deep learning approach. Specifically, I trained a convolutional neural network (CNN) on how to drive on the simulator.
 * You can download the simulator [here](https://github.com/udacity/self-driving-car-sim/tree/term3_collection).
+<p align="center">
+   <img  src="https://miro.medium.com/max/1400/1*2u3zy6GRNBKb5CAVNqkk9Q.png">
+</p>
 * The most important thing that we need to predict to drive successfully is the steering angle of the vehicle.
 * The throttle in our case can be calculated by a simple formula involving steering angle.
 * The architecture of the neural network was mainly inspired from Nvidia’s [End to End Learning for Self-Driving Cars paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf).
@@ -18,9 +21,7 @@ A tuple of data has 3 images left, right, centre and corresponding steering angl
 
 * We assign the angle to the central image and give the left and right images an offset when we train the network. This offset helps the car recover to the center if it veers off course.
 
-<p align="center">
-   <img src="https://miro.medium.com/max/1400/1*2u3zy6GRNBKb5CAVNqkk9Q.png">
-</p>
+
 * In simulator, negative steering angles are for left turns and positive steering angles are for right turns.
 
 * The training data had a bias for left turns so, to remove this, all the images are flipped and the steering angle is multiplied with -1 to get an equal number of left and right turns.
