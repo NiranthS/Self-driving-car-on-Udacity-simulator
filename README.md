@@ -3,7 +3,7 @@ To teach a virtual car how to drive, I took the deep learning approach. Specific
 * You can download the simulator [here](https://github.com/udacity/self-driving-car-sim/tree/term3_collection).
 
 <p align="center">
-   <img width="600" height="560" src="https://miro.medium.com/max/1400/1*2u3zy6GRNBKb5CAVNqkk9Q.png">
+   <img width="650" height="480" src="https://miro.medium.com/max/1400/1*2u3zy6GRNBKb5CAVNqkk9Q.png">
 </p>
 
 ## The simulator had two modes:
