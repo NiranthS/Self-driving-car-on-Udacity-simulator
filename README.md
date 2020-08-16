@@ -32,8 +32,10 @@ The most important thing that we need to predict to drive successfully is the st
 <p align="center">
    <img width="300" height="540" src="https://miro.medium.com/max/1400/1*_ALA3C3qeRQgJoh3LZnFSg.png">
 </p>
+
  ## Training
  I used a combination of [data](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip) provided by Udacity and some that I collected using the training mode in the simulator. A single data example looks as follows,
+ 
  <p align="center">
    <img src="https://miro.medium.com/max/1400/1*lFZrc_-opIELSG4zEQqhSA.jpeg">
 </p>
