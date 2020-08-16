@@ -30,7 +30,7 @@ The most important thing that we need to predict to drive successfully is the st
 * The architecture of the CNN was mainly inspired from Nvidia’s [End to End Learning for Self-Driving Cars paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf).
 
 <p align="center">
-   <img width="200" height="360" src="https://miro.medium.com/max/1400/1*_ALA3C3qeRQgJoh3LZnFSg.png">
+   <img width="300" height="540" src="https://miro.medium.com/max/1400/1*_ALA3C3qeRQgJoh3LZnFSg.png">
 </p>
  ## Training
  I used a combination of [data](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip) provided by Udacity and some that I collected using the training mode in the simulator. A single data example looks as follows,
