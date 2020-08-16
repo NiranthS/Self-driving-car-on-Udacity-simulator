@@ -1,10 +1,12 @@
 # Self-driving-car-on-Udacity-simulator
 To teach a virtual car how to drive, I took the deep learning approach. Specifically, I trained a convolutional neural network (CNN) on how to drive on the simulator.
 * You can download the simulator [here](https://github.com/udacity/self-driving-car-sim/tree/term3_collection).
+
 <p align="center">
    <img  src="https://miro.medium.com/max/1400/1*2u3zy6GRNBKb5CAVNqkk9Q.png">
 </p>
-#### The simulator had two modes:
+
+## The simulator had two modes:
 * Training mode: In the training mode, you drive the car manually to record the driving behavior. You can use the recorded images to train your CNN.
 * Autonomous Mode: In the autonomous mode, you are testing your model to see how well it can drive the car without dropping off the road / hitting obstacles. Each driving instruction contains a steering angle and an acceleration throttle, which changes the car’s direction and the speed. As this happens, the program will receive new image frames at real time.
 
