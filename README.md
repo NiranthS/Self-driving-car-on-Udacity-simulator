@@ -48,6 +48,7 @@ A tuple of data has 3 images left, right, centre and corresponding steering angl
 There were two models trained:
 * First one was able to follow the road staying at the center but was not able to take very sharp turns.
 * Second model was able to take sharp turns perfectly, but it was slightly wobbling on a straight track(Maybe due to too much of turning data while training it)
+
 A weighted ensembling technique was used to get the best of both the models.
 This ensembled model has lesser wobbling and was able to take sharp turns.
 
