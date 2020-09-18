@@ -52,3 +52,5 @@ There were two models trained:
 
 A weighted ensembling technique was used to get the best of both the models.
 This ensembled model has lesser wobbling and was able to take sharp turns.
+
+[Video Demo](https://youtu.be/zhRrvMbQU1c)
