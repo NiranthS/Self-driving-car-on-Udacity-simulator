@@ -1,6 +1,6 @@
 
 # Self-driving-car-on-Udacity-simulator
-To teach a virtual car how to drive, I took the deep learning approach. Specifically, I trained a convolutional neural network (CNN) on how to drive on the simulator.
+To teach a virtual car how to drive, we took the deep learning approach. Specifically, we trained a convolutional neural network (CNN) on how to drive on the simulator.
 * You can download the simulator [here](https://github.com/udacity/self-driving-car-sim/tree/term3_collection).
 
 <p align="center">
@@ -35,7 +35,7 @@ The most important thing that we need to predict to drive successfully is the st
 </p>
 
  ## Training
- I used a combination of [data](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip) provided by Udacity and some that I collected using the training mode in the simulator. A single data example looks as follows,
+ We used a combination of [data](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip) provided by Udacity and some that we collected using the training mode in the simulator. A single data example looks as follows,
  
  <p align="center">
    <img src="https://miro.medium.com/max/1400/1*lFZrc_-opIELSG4zEQqhSA.jpeg">
